@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Contact Us</title>
+    <link rel="stylesheet" href="static/css/style.css" type="text/css"/>
+    <script type="text/javascript" src="static/js/script.js"></script>
+</head>
+<body>
+<header>
+    <a class = "hbutton" name="homepage" href = "/index">Homepage</a>
+    <a class = "hbutton" name="about-us" href = "/about">About Us</a>
+    <a class = "hbutton" name="contact-us" href = "/contact">Contact Us</a>
+</header>
+<h1>Contact Us</h1>
+<h2>Have Questions? Contact Us</h2>
+<p>Send us a message and we will get back to you ASAP</p>
+<div id="response">
+    {% for notification in notifications %}
+    {{ notification }}
+    {% endfor %}
+    <br>
+</div>
+<br>
+<form onsubmit="return contact_us()" action="/contact" method="POST">
+    Name:<br>
+    <pre><input type="text" name="name"></pre>
+    Subject:<br>
+    <pre><input type="text" name="subject"></pre>
+    Email (Optional):<br>
+    <pre><input name="email"></pre>
+    Message:<br>
+    <pre><textarea name="message"></textarea></pre>
+    <br><br>
+    <pre><button type="submit" value="Submit">Submit</button></pre>
+</form>
+<footer>
+    <a class = "fbutton" name="homepage" href = "/index">Homepage</a>
+    <a class = "fbutton" name="about-us" href = "/about">About Us</a>
+    <a class = "fbutton" name="contact-us" href = "/contact">Contact Us</a>
+</footer>
+</body>
+</html>

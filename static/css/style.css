@@ -1,3 +1,38 @@
-h1 {
-	color: blue;
+.hbutton {
+	display: inline-block;
+	background: lightgrey;
+	border-radius: 4px;
+	font-size: 25px;
+	color: black;
+	padding: 8px 12px;
+}
+
+.fbutton {
+	display: inline-block;
+	background: black;
+	border-radius: 4px;
+	font-size: 25px;
+	color: lightgrey;
+	padding: 8px 12px;
+}
+
+.fancy {
+	font-size: 120%;
+	font-family: Georgia, serif;
+	font-variant: small-caps;
+}
+
+
+#response {
+	color: red;
+}
+
+#comments {
+	padding-left:0.4cm;
+	background: white;
+	border: 2px solid black;
+}
+
+body {
+	background-color: #F0F0F0;
 }
