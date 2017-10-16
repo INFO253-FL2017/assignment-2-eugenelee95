@@ -10,15 +10,15 @@ CSS adds stylistic features to the HTML content built.
 
 iii. JavaScript
 
-JavaScript implements form validations and other enhancements and modification features to the HTML. 
+JavaScript implements form validations and other enhancements and modification features to the HTML DOM. 
 
 iv. Python 
 
-Python is a scripting language that handles the implementations on the server side. 
+Python is a scripting language that handles the implementations on the server back end side. 
 
 v. Flask 
 
-Flask is the framework that provides tools to enhance the dynamic nature of the website. 
+Flask is the framework that provides tools to enhance the dynamic nature of the website by using templates to make getting web resources easier. 
 
 vi. HTTP 
 
@@ -26,7 +26,7 @@ HTTP is the protocol that makes the connection between the web to the local serv
 
 vii. GET and POST requests 
 
-GET and POST requests are various methods to transfer contents and getting resources and modifying them by making connections between the client and server side. 
+GET and POST requests are various methods to transfer contents and getting resources and modifying them by making connections between the client and server side. Mainly for this assignment I used the POST request to handle the MAILGUN functionality. 
 
 
 2. How does HTML, CSS, and JavaScript work together in the browser for this assignment? 
@@ -35,7 +35,7 @@ HTML is used to create the skeleton template for the web pages. We use CSS to ad
 
 3. How does Python and Flask work together in the server for this assignment?
 
-Python is used to run the server and Flask is a Python library that allows easy deployment of the webpages. These languages are used to handle the GET and POST requests with the proper source and destination resources. 
+Python is used to run the server and Flask is a Python library that allows easy deployment of the webpages. These languages are used to handle the GET and POST requests with the proper source and destination resources as well as rendering templates. 
 
 4. List all of the possible GET and POST requests that your server returns a response for and describes what happens to each GET and POST request 
 
